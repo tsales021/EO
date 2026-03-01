@@ -1,0 +1,14 @@
+{
+  "name": "eo-signup-helper",
+  "version": "1.0.0",
+  "description": "Aplicativo web para preencher cadastro via CroxyProxy e retornar captcha",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "playwright": "^1.52.0"
+  }
+}
